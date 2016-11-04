@@ -41,7 +41,7 @@ passport.use(new VisualStudioStrategy({
     callbackURL: "https://localhost:3000/auth/visualstudio/callback"
   },
   function(accessToken, refreshToken, profile, cb) {
-    User.findOrCreate({ facebookId: profile.id }, function (err, user) {
+    User.findOrCreate({ visualStudioId: profile.id }, function (err, user) {
       return cb(err, user);
     });
   }
