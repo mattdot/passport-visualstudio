@@ -8,8 +8,11 @@
     "lib/strategy.js",
     "lib/utils.js"
   ],
+  "typings" : "lib/index.d.ts",
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
+    "preversion": "npm test",
+    "postversion": "git push"
   },
   "repository": {
     "type": "git",
