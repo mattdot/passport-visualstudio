@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "files": [
     "lib/index.js",
-    "lib/strategy.js"
+    "lib/strategy.js",
+    "lib/utils.js"
   ],
   "scripts": {
     "test": "node_modules/.bin/mocha"
