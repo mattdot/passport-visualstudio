@@ -1,6 +1,6 @@
 {
   "name": "passport-visualstudio",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "passportjs strategy for visualstudio.com",
   "main": "lib/index.js",
   "files": [
