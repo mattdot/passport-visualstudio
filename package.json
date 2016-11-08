@@ -10,9 +10,7 @@
   ],
   "typings": "lib/index.d.ts",
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "preversion": "npm test",
-    "postversion": "git push"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
