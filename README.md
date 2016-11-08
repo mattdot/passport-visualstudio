@@ -1,4 +1,4 @@
-# passport-visualstudio
+# passport-visualstudio [![Build Status](https://travis-ci.org/mattdot/passport-visualstudio.svg?branch=master)](https://travis-ci.org/mattdot/passport-visualstudio)
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Visual Studio Online](http://www.visualstudio.com/)
 using the OAuth 2.0 API.
