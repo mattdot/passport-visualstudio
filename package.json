@@ -3,6 +3,10 @@
   "version": "0.1.3",
   "description": "passportjs strategy for visualstudio.com",
   "main": "lib/index.js",
+  "files": [
+    "lib/index.js",
+    "lib/strategy.js"
+  ],
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
