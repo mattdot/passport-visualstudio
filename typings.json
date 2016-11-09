@@ -1,0 +1,7 @@
+{
+  "name": "passport-visualstudio",
+  "dependencies": {},
+  "files" : [
+    "lib/index.d.ts"
+  ]
+}
